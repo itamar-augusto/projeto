@@ -12,11 +12,14 @@ Tudo começa no site do GitHub. Para criar o projeto do zero, eu clico em **"New
 * Se ele será **público** ou **privado**.
 * A opção de adicionar um arquivo **README** (isso já cria o repositório com uma página inicial ativa).
 
-### A Conexão e o Primeiro Envio (Pelo Navegador)
-Dá para fazer tudo de forma visual, sem usar o terminal:
-1. No repositório, clico em **"Add file"** e escolho **"Upload files"**.
-2. **Arrasto e solto** os arquivos do computador direto na página do GitHub.
-3. Escrevo o título do envio (ex: *"Meu primeiro envio"*) e clico em **"Commit changes"**. Os arquivos já estão na nuvem.
+### A Conexão: Vinculando a Pasta Local à Nuvem
+Para conectar a minha pasta local do computador com o repositório na nuvem de forma visual, eu abro o aplicativo **GitHub Desktop** e clico em **"Clone a repository"**. Seleciono o projeto criado no site e escolho uma pasta na minha máquina. Isso cria uma "ponte" automática e sincronizada entre o meu computador e a nuvem do GitHub.
+
+### O Primeiro Envio: Como os Arquivos Vão para a Nuvem
+Com a conexão feita, o envio dos arquivos segue este passo a passo visual:
+1. Coloco os arquivos do meu projeto dentro da pasta que foi clonada no computador.
+2. O aplicativo GitHub Desktop detecta as alterações na hora. Eu escrevo um título para o envio (ex: *"Meu primeiro envio"*).
+3. Clico no botão **"Commit to main"** para salvar localmente e, em seguida, clico em **"Push origin"** para empurrar os arquivos direto para a nuvem do GitHub.
 
 ---
 
@@ -46,4 +49,4 @@ Dá para atualizar o código sem usar o terminal. Veja as opções na prática:
 * **IDEs (Como o VS Code):** A opção mais prática durante a programação. O editor se conecta ao GitHub, usa cores para mostrar o que mudou e envia as atualizações com um clique.
 
 ### A Filosofia da Atualização
-Atualizar o projeto aos poucos e com comentarios frequentes evita dores de cabeça. Deixar para enviar tudo no final do mês é arriscado, pois fica difícil achar a origem de um erro. Atualizando aos poucos, o histórico fica organizado, fica fácil corrigir falhas e o progresso fica salvo na nuvem de forma segura.
+Atualizar o projeto aos poucos e com commits frequentes evita dores de cabeça. Deixar para enviar tudo no final do mês é arriscado, pois fica difícil achar a origem de um erro. Atualizando aos poucos, o histórico fica organizado, fica fácil corrigir falhas e o progresso fica salvo na nuvem de forma segura.
